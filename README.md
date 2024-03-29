@@ -2,6 +2,7 @@
 <h2>Description</h2>
 My project involves the implementation of an integrated solution for managing data and processes for The Movie Database (TMDB) website. I have utilized a combination of SQL databases, APIs, and the Jira platform to streamline processes and enhance the website's functionalities.
 <h2>Key components</h2>
+
 * SQL Databases: I have designed and implemented SQL databases to store information about movies, actors, directors, and other relevant entities. These SQL databases have been optimized for performance and scalability, ensuring efficient data management.
 
 * APIs: I have integrated APIs from TMDB to retrieve and update information about movies. Through these APIs, I have facilitated access to up-to-date data and functionalities offered by the TMDB platform.
