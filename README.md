@@ -1,4 +1,4 @@
-<h1>Project: Integration of SQL Databases, APIs, and Jira for TMDB Website</h1>
+<h1>Manual Testing Project: Integration of SQL Databases, APIs, and Jira for TMDB Website</h1>
 <h2>Description</h2>
 My project involves the implementation of an integrated solution for managing data and processes for The Movie Database (TMDB) website. I have utilized a combination of SQL databases, APIs, and the Jira platform to streamline processes and enhance the website's functionalities.
 <h2>Key components</h2>
