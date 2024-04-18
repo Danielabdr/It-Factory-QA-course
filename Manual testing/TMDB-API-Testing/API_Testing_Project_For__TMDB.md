@@ -172,6 +172,22 @@ Below you can find a picture of the API request from Postman:<br>
 
 JavaScript Tests:<br>
 ![sddsfdsf](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/8a7c88ae-b928-4436-85e5-3003c17b6d4a)<br>
+
+<li>Create list</li>
+
+HTTP method for request: POST<br>
+Request description: Create a new list.<br>
+Test types / techniques used: Positive testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![mn mnm,n](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/1e50c6a0-43d5-4a48-83e5-9e8da80317a0)<br>
+
+JavaScript Tests:
+
+![t1](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/f026b0ed-cf3c-4fd4-b935-53ef49b63be4)<br>
+![t2](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/ce968979-0f36-4dde-8bd7-69e0628ec77a)<br>
 .............
 
 <li>**Nume Request n**</li>
