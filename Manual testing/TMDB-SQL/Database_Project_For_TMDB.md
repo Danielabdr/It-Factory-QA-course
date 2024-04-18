@@ -1,13 +1,13 @@
-<h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Database Project for TMDB (The Movie Database)</h1>
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: The Movie Database
 
 Tools used: MySQL Workbench
 
-Database description: **Inserati aici o scurta descriere a bazei de date care sa contina scopul ei, informatiile generale pe care le veti salva si orice alte informatii considerati ca sunt relevante pentru o descriere**
-
+Database description: The Movie Database is a platform dedicated to collecting, organizing, and managing information related to movies. Its main purpose is to provide users with quick and efficient access to various aspects of films, such as their ratings, genres, actors, and directors. With the help of this database, users can perform advanced searches, obtain relevant statistics, and make informed decisions regarding watching or managing movies.
+By covering a wide range of information and relationships between entities, facilitates exploration and interaction with the expansive world of cinematography.
 <ol>
 <li>Database Schema </li>
 <br>
@@ -16,9 +16,9 @@ You can find below the database schema that was generated through Reverse Engine
 The tables are connected in the following way:
 
 <ul>
-  <li> **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
+  <li> movies is connected with movie_rating through a one-to-many relationship which was implemented through movies.movie_id as a primary key and movie_rating.movie_id as a foreign key.</li>
+  <li> movies is connected with movie_genre through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_genre.movie_id as a foreign key.</li>
+  <li> movies is connected with movie_actor through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_actor.movie_id as a foreign key.</li>
   ...........
   <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
 </ul><br>
