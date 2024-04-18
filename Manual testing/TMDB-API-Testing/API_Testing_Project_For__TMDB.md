@@ -299,13 +299,13 @@ The following issues were identified while running the postman tests:<br>
 The user should not be able to add items to a list with null values in body parameters
 
 Steps to reproduce:
-•	Open Postman application
-•	Click on „New” button from the top-left corner of the page
-•	Click on „HTTP” icon 
-•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
-•	Replace „{list_id}” with the list id in wich you want to add the items
-•	Add HTTP method for the request (POST)
-Click on „Body”  Raw and insert the following body params:
+*	Open Postman application
+* Click on „New” button from the top-left corner of the page
+* Click on „HTTP” icon 
+* Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+* Replace „{list_id}” with the list id in wich you want to add the items
+* Add HTTP method for the request (POST)
+* Click on „Body”  Raw and insert the following body params:
 {
   "items": [
     {
@@ -314,8 +314,8 @@ Click on „Body”  Raw and insert the following body params:
     }
   ]
 }
-•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
-•	Click „Send” button
+* Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+* Click „Send” button
 
 Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
 
@@ -326,13 +326,13 @@ Actual results: The returned status code is 200 instead of 404 and an error mess
 The user should not be able to add items to a list with unexisting movie id in body params
 
 Steps to reproduce:
-•	Open Postman application
-•	Click on „New” button from the top-left corner of the page
-•	Click on „HTTP” icon 
-•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
-•	Replace „{list_id}” with the list id in wich you want to add the items 
-•	Add HTTP method for the request (POST)
-Click on „Body”  Raw and insert the following body params:
+* Open Postman application
+* Click on „New” button from the top-left corner of the page
+* Click on „HTTP” icon
+* Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+* Replace „{list_id}” with the list id in wich you want to add the items
+* Add HTTP method for the request (POST)
+* Click on „Body”  Raw and insert the following body params:
 {
   "items": [
     {
@@ -341,8 +341,8 @@ Click on „Body”  Raw and insert the following body params:
     }
   ]
 }
-•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
-•	Click „Send” button
+* Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)
+* Click „Send” button
 
 Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
 
@@ -353,13 +353,13 @@ Actual results: The returned status code is 200 instead of 404 and an error mess
 The user should not be able to add items to a list unexisting media type value in body params
 
 Steps to reproduce:
-•	Open Postman application
-•	Click on „New” button from the top-left corner of the page
-•	Click on „HTTP” icon 
-•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
-•	Replace „{list_id}” with the list id in wich you want to add the items 
-•	Add HTTP method for the request (POST)
-Click on „Body”  Raw and insert the following body params:
+* Open Postman application
+* Click on „New” button from the top-left corner of the page
+* Click on „HTTP” icon
+* Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+* Replace „{list_id}” with the list id in wich you want to add the items
+* Add HTTP method for the request (POST)
+* Click on „Body”  Raw and insert the following body params:
 {
   "items": [
     {
@@ -368,8 +368,8 @@ Click on „Body”  Raw and insert the following body params:
     }
   ]
 }
-•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
-•	Click „Send” button
+*	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)
+*	Click „Send” button
 
 Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
 
@@ -380,12 +380,12 @@ Actual results: The returned status code is 200 instead of 404 and an error mess
 The user should not be able to create a list
 
 Steps to reproduce:
-•	Open Postman application
-•	Click on „New” button from the top-left corner of the page
-•	Click on „HTTP” icon 
-•	Enter endpoint request  https://api.themoviedb.org/4/list
-•	Add HTTP method for the request (POST)
-Click on „Body”  Raw and insert the following body params:
+* Open Postman application
+* Click on „New” button from the top-left corner of the page
+* Click on „HTTP” icon
+* Enter endpoint request  https://api.themoviedb.org/4/list
+* Add HTTP method for the request (POST)
+* Click on „Body”  Raw and insert the following body params:
 {
   "description": "",
   "name": "My first created Listtttt",
@@ -393,8 +393,8 @@ Click on „Body”  Raw and insert the following body params:
   "iso_639_1": "en",
   "public": true
 }
-•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
-•	Click „Send” button
+* Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+* Click „Send” button
 
 Expected results: The user should be able to create the list and a success message should be returned with 200 status code.
 
