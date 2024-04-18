@@ -188,6 +188,88 @@ JavaScript Tests:
 
 ![t1](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/f026b0ed-cf3c-4fd4-b935-53ef49b63be4)<br>
 ![t2](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/ce968979-0f36-4dde-8bd7-69e0628ec77a)<br>
+
+<li>Create list-Negative testing with null body parameter values</li>
+
+HTTP method for request: POST <br>
+Request description:Create a new list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 400 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![,mnknmkn](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/298b55db-2b32-456a-bdfb-ab1d640f222b)<br>
+
+JavaScript Tests:
+
+![mnbnbn](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/e62e5b47-a88b-48c0-9d38-9a7652e079a8)<br>
+
+<li>Check if an item is on a list</li>
+
+HTTP method for request: GET <br>
+Request description: Check if an item is on a list.<br>
+Test types / techniques used: Positive testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![kjhjkjk](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/60b90b48-4a64-4ccb-bc98-5eb2178907e7)<br>
+
+<li>Check if an unexisting item is on a list-Negative testing</li>
+
+HTTP method for request: GET <br>
+Request description: Check if an item is on a list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 404 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![mbnjknkj](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/bb557ad6-f336-42f8-a4b0-e352ecf0808d)<br>
+
+JavaScript Tests:
+
+![nbnbjn](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/fbc57dc0-0966-46d3-b74b-778f5304ca99)<br>
+
+
+<li>Update the details of a list</li>
+
+HTTP method for request: PUT <br>
+Request description: Update the details of a list.<br>
+Test types / techniques used: Positive testing<br>
+Response status code: 201 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![,mnkmn](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/50248fb7-1ad2-4d0e-a206-246d61955daf)<br>
+
+<li>Update the details of an unexisting list</li>
+
+HTTP method for request: PUT <br>
+Request description: Update the details of a list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 201 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![knkjnkjnj](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/35992ba7-cdab-4b0c-9dcb-77642cf7e72c)<br>
+
+JavaScript Tests:
+
+![image](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/0b1364f3-0a71-45bc-ad94-3edc98652d74)<br>
+
+<li>Remove items from list</li>
+
+HTTP method for request: DELETE <br>
+Request description: Removes items from a list.<br>
+Test types / techniques used: Positive testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![lkmklmkl](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/c8e7f693-bcce-4b8f-99fd-53a9fc495d9d)<br>
+
+
+
 .............
 
 <li>**Nume Request n**</li>
