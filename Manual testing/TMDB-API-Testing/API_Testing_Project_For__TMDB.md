@@ -272,28 +272,16 @@ Below you can find a picture of the API request from Postman:<br>
 
 .............
 
-<li>**Nume Request n**</li>
-
-HTTP method for request: **Inserati aici metoda HTTP a requestului**<br>
-Request description: **Inserati o scurta descriere a requestului, conform documentatiei de API**<br>
-Test types / techniques used: **Inserati tipurile si tehnicile de testare folosite pentru acest request**<br>
-Response status code: **Inserati aici status code-ul pe care l-ati obtinut in urma executiei requestului**<br>
-
-Below you can find a picture of the API request from Postman:<br>
-
-**Inserati aici o poza cu requestul din postman in care sa se observe request method, endpoint, request body si response body**<br>
-
-JavaScript Tests:
-
-**Inserati aici o poza cu testele in java script pe care le-ati definit impreuna cu rezultatele executiei acestora**<br>
-
 </ol>
 
 <h2>Execution report for the created API collection </h2>
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+![re1](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/5263b1ba-6e10-469a-8c1f-7a772f6a718f)<br>
+![re2](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/821bd803-4875-4b00-bf42-57050c8f330d)<br>
+![re3](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/2c00dc56-0fdd-4fe2-bf17-3cd78329e56d)<br>
+![re4](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/aa8a60cc-7fe1-4c26-86ea-5cb1062258d0)<br>
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
