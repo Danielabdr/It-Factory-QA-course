@@ -294,7 +294,7 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
-<h1>Bug 1</h1>
+<h3>Bug 1</h3>
 
 The user should not be able to add items to a list with null values in body parameters
 
@@ -321,7 +321,7 @@ Expected results: The user should not be able to add items on the list and an er
 
 Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
 
-<h1>Bug 2</h1>
+<h3>Bug 2</h3>
 
 The user should not be able to add items to a list with unexisting movie id in body params
 
@@ -348,7 +348,7 @@ Expected results: The user should not be able to add items on the list and an er
 
 Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
 
-<h1>Bug 3</h1>
+<h3>Bug 3</h3>
 
 The user should not be able to add items to a list unexisting media type value in body params
 
@@ -375,7 +375,7 @@ Expected results: The user should not be able to add items on the list and an er
 
 Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
 
-<h1>Bug 4</h1>
+<h3>Bug 4</h3>
 
 The user should not be able to create a list
 
