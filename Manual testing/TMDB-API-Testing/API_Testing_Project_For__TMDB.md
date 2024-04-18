@@ -294,9 +294,116 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
-****Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
+</h1>Bug 1h1>
+
+The user should not be able to add items to a list with null values in body parameters
+
+Steps to reproduce:
+•	Open Postman application
+•	Click on „New” button from the top-left corner of the page
+•	Click on „HTTP” icon 
+•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+•	Replace „{list_id}” with the list id in wich you want to add the items
+•	Add HTTP method for the request (POST)
+Click on „Body”  Raw and insert the following body params:
+{
+  "items": [
+    {
+      "media_type": null,
+      "media_id": null
+    }
+  ]
+}
+•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+•	Click „Send” button
+
+Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
+
+Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
+
+<h1>Bug 2</h1>
+
+The user should not be able to add items to a list with unexisting movie id in body params
+
+Steps to reproduce:
+•	Open Postman application
+•	Click on „New” button from the top-left corner of the page
+•	Click on „HTTP” icon 
+•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+•	Replace „{list_id}” with the list id in wich you want to add the items 
+•	Add HTTP method for the request (POST)
+Click on „Body”  Raw and insert the following body params:
+{
+  "items": [
+    {
+      "media_type": "movie",
+      "media_id": 56889623163
+    }
+  ]
+}
+•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+•	Click „Send” button
+
+Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
+
+Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
+
+<h1>Bug 3</h1>
+
+The user should not be able to add items to a list unexisting media type value in body params
+
+Steps to reproduce:
+•	Open Postman application
+•	Click on „New” button from the top-left corner of the page
+•	Click on „HTTP” icon 
+•	Enter endpoint request  https://api.themoviedb.org/4/list/{list_id}/items
+•	Replace „{list_id}” with the list id in wich you want to add the items 
+•	Add HTTP method for the request (POST)
+Click on „Body”  Raw and insert the following body params:
+{
+  "items": [
+    {
+      "media_type": "bvvjbjn b",
+      "media_id": 1072790
+    }
+  ]
+}
+•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+•	Click „Send” button
+
+Expected results: The user should not be able to add items on the list and an error message should be returned with the 404 status code.
+
+Actual results: The returned status code is 200 instead of 404 and an error message is returned in the response body saying "Media is required".
+
+<h1>Bug 4</h1>
+
+The user should not be able to create a list
+
+Steps to reproduce:
+•	Open Postman application
+•	Click on „New” button from the top-left corner of the page
+•	Click on „HTTP” icon 
+•	Enter endpoint request  https://api.themoviedb.org/4/list
+•	Add HTTP method for the request (POST)
+Click on „Body”  Raw and insert the following body params:
+{
+  "description": "",
+  "name": "My first created Listtttt",
+  "iso_3166_1": "US",
+  "iso_639_1": "en",
+  "public": true
+}
+•	Click on „Headers”  Add new key field with „Authorization” text and Authorization token on value field ((Ex: „Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWFmZTNlMzY3YjYxMzAwYWZmMGFiODciLCJuYmYiOjE3MDg0MzkwMDEsImF1ZCI6IjhhNjU3MTQwNzk5OTQwNDMwYjQ5MzY1NTBhOTUwNjUzIiwianRpIjoiNjc0MjUwNiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.24I44CN46rLJglDrlajkH7q0EFHiaeQH6ut0ClcLDyA”)  
+•	Click „Send” button
+
+Expected results: The user should be able to create the list and a success message should be returned with 200 status code.
+
+Actual results: The returned status code is 201 instead of 200.
+
+
+
+ 
+
 
 <h2>Conclusions</h2>
 
