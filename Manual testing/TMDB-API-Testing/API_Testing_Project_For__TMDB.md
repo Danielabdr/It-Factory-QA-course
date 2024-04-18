@@ -294,7 +294,7 @@ The collection was also run through newman directly from the terminal, and the r
 
 The following issues were identified while running the postman tests:<br>
 
-</h1>Bug 1h1>
+<h1>Bug 1</h1>
 
 The user should not be able to add items to a list with null values in body parameters
 
