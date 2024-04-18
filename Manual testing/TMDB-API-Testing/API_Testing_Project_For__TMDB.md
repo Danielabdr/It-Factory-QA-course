@@ -285,7 +285,10 @@ Below you can find the execution report that was generated through the Postman c
 
 The collection was also run through newman directly from the terminal, and the results can be found below:<br>
 
-**Inserati aici o poza cu raportul de executie din Newman**<br>
+![n1](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/410329b2-019e-4c3f-8ba5-56fda8932c07)<br>
+![n2](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/44dc35f5-b3f7-44e4-9a5a-2a798809519e)<br>
+![n3](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/2e0a4eaf-c1a5-445a-8a29-2c2062b2e2b8)<br>
+![n4](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/a49848b6-6ec9-4b4f-a07c-7ebd34c19e3d)<br>
 
 <h2>Defects found</h2>
 
