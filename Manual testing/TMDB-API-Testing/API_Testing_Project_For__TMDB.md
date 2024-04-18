@@ -1,4 +1,4 @@
-<h1>API Testing Project for TMDB(The Movie Database)**</h1>
+<h1>API Testing Project for TMDB(The Movie Database)</h1>
 
 The scope of this project is to use all  API knowledge gained throught the Software Testing course and apply them in practice, using a live application.
 
@@ -11,7 +11,7 @@ Collection link: **Inserati aici linkul catre colectia de API**
 <h2>Tests performed</h2>
 
 <ol>
-<li>**Request token**</li>
+<li>Request token</li>
 
 HTTP method for request: POST <br>
 Request description: 
@@ -117,7 +117,61 @@ JavaScript Tests:<br>
 ![sdfsdf](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/f892cb5a-b81c-4445-9e7c-6281cca5198c)<br>
 ![zxczzx](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/994dded9-c2c2-491d-8b3d-2e3b49d5fc2a)<br>
 
+<li>Add items to a list-Negative testing with null parameter values in body params</li>
 
+HTTP method for request: POST <br>
+Request description: Add items to a list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![sdvfsdvsdv](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/06007239-dc9e-46d6-bf3d-536404a46c57)<br>
+
+JavaScript Tests:<br>
+![sdfsdfsdfsd](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/e5219d50-6f54-4bcc-a031-ab1fd076412e)<br>
+
+<li>Add item to a list-Negative testing with unexisting movie id in body params</li>
+
+HTTP method for request: POST <br>
+Request description: Add items to a list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![sds](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/86154221-2686-4bb5-91bd-c3b8b2d4f81f)<br>
+
+JavaScript Tests:<br>
+![xdcdsxvd](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/4ab8738c-412f-4ec9-b982-5320d33253ec)<br>
+
+<li>Add items to a list-Negative testing with unexisting media type value in body params</li>
+
+HTTP method for request: POST <br>
+Request description: Add items to a list.<br>
+Test types / techniques used: Negative testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![sdfsdfsd](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/472bb2fe-7a72-4214-99d9-2552710cb4a2)<br>
+
+JavaScript Tests:<br>
+![dvsdvsdv](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/f8bad5de-3b07-4070-bedd-10a6aba07a3b)<br>
+
+<li>Clear all the items of the list</li>
+
+HTTP method for request: GET <br>
+Request description: Clear all of the items on a list.<br>
+Test types / techniques used: Positive testing <br>
+Response status code: 200 <br>
+
+Below you can find a picture of the API request from Postman:<br>
+
+![zxcsdzcd](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/8236feef-b299-4752-bf9f-3828a00de095)<br>
+
+JavaScript Tests:<br>
+![sddsfdsf](https://github.com/Danielabdr/It-Factory-QA-course/assets/157109953/8a7c88ae-b928-4436-85e5-3003c17b6d4a)<br>
 .............
 
 <li>**Nume Request n**</li>
