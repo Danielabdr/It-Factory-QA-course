@@ -136,73 +136,40 @@ drop column rating;
 
   Below you can find all the insert instructions that were created in the scope of this project:
 
-insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2024-01-19");
-
-insert into movies (title, rating, release_date) values ("The Shawshank Redemption", 0.87, "1994-09-23");
-
-insert into movies (title, rating, release_date) values ("Good Fellas", 0.85, "1990-09-19");
-
-insert into movies (title, rating, release_date) values ("Mutant:Ghost War Girl", 0.52, "2022-06-26");
-
-insert into movies (title, rating, release_date) values ("The Hunger Games:The Ballad of Songbirds & Snakes", 0.72, "2023-11-17");
-
-insert into movies (title, rating, release_date) values ("Patriots Time", 0.83, "2022-04-28");
-
-insert into movies (title, rating, release_date) values ("Genghis Khan ", 0.49, "2018-04-28");
-
-insert into movies (title, rating, release_date) values ("The OctoGames", 0.59, "2024-01-19");
-
-insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2022-07-10");
-
-insert into movies (title, rating, release_date) values ("The Farm", 0.52, "2019-04-19");
-
-insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");
-
-insert into movies (title, rating, release_date) values ("The Hill", 0.75, "2023-08-18");
-
-insert into movies (title, rating, release_date) values ("Schindler's List", 0.86, "1993-12-15");
-
-insert into movies (title, rating, release_date) values ("Fury", 0.75, "2014-10-15");
-
-insert into movies (title, rating, release_date) values ("TLift", 0.66, "2024-01-10");
-
-insert into movies (title, rating, release_date) values ("Leo", 0.75, "2023-11-17");
-
-insert into movies (title, rating, release_date) values ("Turning Red", 0.74, "2022-03-10");
-
-insert into movies (title, rating, release_date) values ("Dune", 0.78, "2021-09-15");
-
-insert into movies (title, rating, release_date) values ("Transformers: Rise of the Beasts", 0.74, "2023-01-06");
-
-insert into movies (title, rating, release_date) values ("Mutant: Ghost War Girl", 0.52, "2022-09-26");
-
-insert into movies (title, rating, release_date) values ("Foxtrot Six", 0.65, "2019-02-21");
-
-insert into movies (title, rating, release_date) values ("The Creator", 0.71, "2023-09-27");
-
-insert into movies (title, rating, release_date) values ("Meg 2: The Trench", 0.67, "2023-08-02");
-
-insert into movies (title, rating, release_date) values ("Avatar: The Way of Water", 0.76, "2012-12-14");
-
-insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");
-
-insert into movies (title, rating, release_date) values ("Wish", 0.67, "2023-11-13");
-
-insert into movies (title, rating, release_date) values ("The Boy and the Heron", 0.75, "2023-07-14");
-
-insert into movies (title, rating, release_date) values ("Elemental", 0.77, "2023-06-14");
-
-insert into movies (title, rating, release_date) values ("Puss in Boots: The Last Wish", 0.83, "2022-12-07");
-
-insert into movies (title, rating, release_date) values ("Minions: The Rise of Gru", 0.73, "2022-07-29");
-
-insert into movies (title, rating, release_date) values ("Trolls Band Together", 0.73, "2023-10-12");
-
-insert into movies (title, rating, release_date) values ("Sing 2", 0.79, "2021-12-01");
-
-insert into movies (title, rating, release_date) values ("Maestro", 0.65, "2023-11-22");
-
-insert into movies (title, rating, release_date) values ("La La Land", 0.79, "2016-11-29");
+insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2024-01-19");<br>
+insert into movies (title, rating, release_date) values ("The Shawshank Redemption", 0.87, "1994-09-23");<br>
+insert into movies (title, rating, release_date) values ("Good Fellas", 0.85, "1990-09-19");<br>
+insert into movies (title, rating, release_date) values ("Mutant:Ghost War Girl", 0.52, "2022-06-26");<br>
+insert into movies (title, rating, release_date) values ("The Hunger Games:The Ballad of Songbirds & Snakes", 0.72, "2023-11-17");<br>
+insert into movies (title, rating, release_date) values ("Patriots Time", 0.83, "2022-04-28");<br>
+insert into movies (title, rating, release_date) values ("Genghis Khan ", 0.49, "2018-04-28");<br>
+insert into movies (title, rating, release_date) values ("The OctoGames", 0.59, "2024-01-19");<br>
+insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2022-07-10");<br>
+insert into movies (title, rating, release_date) values ("The Farm", 0.52, "2019-04-19");<br>
+insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");<br>
+insert into movies (title, rating, release_date) values ("The Hill", 0.75, "2023-08-18");<br>
+insert into movies (title, rating, release_date) values ("Schindler's List", 0.86, "1993-12-15");<br>
+insert into movies (title, rating, release_date) values ("Fury", 0.75, "2014-10-15");<br>
+insert into movies (title, rating, release_date) values ("TLift", 0.66, "2024-01-10");<br>
+insert into movies (title, rating, release_date) values ("Leo", 0.75, "2023-11-17");<br>
+insert into movies (title, rating, release_date) values ("Turning Red", 0.74, "2022-03-10");<br>
+insert into movies (title, rating, release_date) values ("Dune", 0.78, "2021-09-15");<br>
+insert into movies (title, rating, release_date) values ("Transformers: Rise of the Beasts", 0.74, "2023-01-06");<br>
+insert into movies (title, rating, release_date) values ("Mutant: Ghost War Girl", 0.52, "2022-09-26");<br>
+insert into movies (title, rating, release_date) values ("Foxtrot Six", 0.65, "2019-02-21");<br>
+insert into movies (title, rating, release_date) values ("The Creator", 0.71, "2023-09-27");<br>
+insert into movies (title, rating, release_date) values ("Meg 2: The Trench", 0.67, "2023-08-02");<br>
+insert into movies (title, rating, release_date) values ("Avatar: The Way of Water", 0.76, "2012-12-14");<br>
+insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");<br>
+insert into movies (title, rating, release_date) values ("Wish", 0.67, "2023-11-13");<br>
+insert into movies (title, rating, release_date) values ("The Boy and the Heron", 0.75, "2023-07-14");<br>
+insert into movies (title, rating, release_date) values ("Elemental", 0.77, "2023-06-14");<br>
+insert into movies (title, rating, release_date) values ("Puss in Boots: The Last Wish", 0.83, "2022-12-07");<br>
+insert into movies (title, rating, release_date) values ("Minions: The Rise of Gru", 0.73, "2022-07-29");<br>
+insert into movies (title, rating, release_date) values ("Trolls Band Together", 0.73, "2023-10-12");<br>
+insert into movies (title, rating, release_date) values ("Sing 2", 0.79, "2021-12-01");<br>
+insert into movies (title, rating, release_date) values ("Maestro", 0.65, "2023-11-22");<br>
+insert into movies (title, rating, release_date) values ("La La Land", 0.79, "2016-11-29");<br>
 
 insert into movies (title, rating, release_date) values ("Bohemian Rhapsody", 0.80, "2018-10-24");
 
