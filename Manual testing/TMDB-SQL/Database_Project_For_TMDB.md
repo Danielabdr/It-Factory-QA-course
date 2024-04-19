@@ -797,7 +797,54 @@ insert into movie_rating (movie_id, rating_id) values (106, 325);
 
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 
-  **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
+UPDATE movies
+SET title = 'Lift'
+WHERE movie_id = '60';
+
+update movie_genre 
+set m_id = 61
+where movie_genre_id = 45;
+
+update movie_genre 
+set m_id = 61
+where movie_genre_id = 46;
+
+update movie_genre 
+set m_id = 74
+where movie_genre_id = 84;
+
+update movie_genre 
+set m_id = 74
+where movie_genre_id = 85;
+
+update movie_genre 
+set m_id = 74
+where movie_genre_id = 86;
+
+update movie_director 
+set movie_id = 49
+where movie_director_id = 4;
+
+update movie_director 
+set movie_id = 50
+where movie_director_id = 4;
+
+update movie_director
+set movie_id = 84
+where movie_director_id = 57;
+
+update movie_director
+set movie_id = 84
+where movie_director_id = 5;
+
+UPDATE movie_rating
+SET rating_id = NULL
+WHERE movie_rating_id = 61;
+
+UPDATE movie_rating
+SET rating_id = NULL
+WHERE movie_rating_id = 62;
+select * from movie_rating;
 
 
   <li>DQL (Data Query Language)</li>
