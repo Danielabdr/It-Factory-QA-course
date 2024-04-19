@@ -851,7 +851,43 @@ select * from movie_rating;
 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
-**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+delete from movies where movie_id = 65;
+
+delete from director 
+where director_id = 2;
+
+delete from movie_director;
+
+delete from director
+where director_id = 36;
+
+delete from movies;
+
+delete from ratings;
+
+delete from ratings
+where rating_id not in (    
+    select rating_id     
+    from (                 
+		select min(rating_id) as rating_id  
+		from ratings                  
+		group by rating     
+						)   
+		as min_ratings )
+
+select * from actors;
+delete from actors where actor_id = 68;
+
+delete from movie_genre where movie_genre_id = 8;
+delete from movie_genre where movie_genre_id = 9;
+delete from movie_genre where movie_genre_id = 10;
+delete from movie_genre where movie_genre_id = 11;
+delete from movie_genre where movie_genre_id = 13;
+delete from movie_genre where movie_genre_id = 12;
+
+delete from movies where movie_id = 54;
+delete from movies where movie_id = 65;
+
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
