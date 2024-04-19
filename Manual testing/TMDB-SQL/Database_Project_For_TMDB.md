@@ -260,9 +260,9 @@ insert into movies (title, rating, release_date) values ("Zuhause", 0, "2015-06-
 
 insert into movies (title, rating, release_date) values ("The Hardest Hour", 0, "2024-02-10");
 
- insert into genres ( name ) values ("comedy");
- insert into genres ( name ) values ("science fiction");
- insert into genres ( name ) values ("action");
+<li>insert into genres ( name ) values ("comedy");
+insert into genres ( name ) values ("science fiction");
+insert into genres ( name ) values ("action");
 insert into genres ( name ) values ("horror");
 insert into genres ( name ) values ("music");
 insert into genres ( name ) values ("animation");
@@ -278,7 +278,7 @@ insert into genres ( name ) values ("science fiction");
 insert into genres ( name ) values ("thriller");
 insert into genres ( name ) values ("war");
 insert into genres ( name ) values ("western");
-insert into genres ( name ) values ("crime");
+insert into genres ( name ) values ("crime");</li>
 
 insert into ratings (rating) values (1.0);
 insert into ratings (rating) values (0.99);
