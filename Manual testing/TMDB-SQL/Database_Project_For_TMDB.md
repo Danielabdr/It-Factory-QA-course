@@ -260,7 +260,7 @@ insert into movies (title, rating, release_date) values ("Zuhause", 0, "2015-06-
 
 insert into movies (title, rating, release_date) values ("The Hardest Hour", 0, "2024-02-10");
 
-insert into genres ( name ) values ("comedy");
+insert into genres ( name ) values ("comedy");<br>
 insert into genres ( name ) values ("science fiction");
 insert into genres ( name ) values ("action");
 insert into genres ( name ) values ("horror");
