@@ -891,21 +891,169 @@ delete from movies where movie_id = 65;
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
-**Inserati aici toate instructiunile de SELECT pe care le-ati scris folosind filtrarile necesare astfel incat sa extrageti doar datele de care aveti nevoie**
-**Incercati sa acoperiti urmatoarele:**<br>
-**- where**<br>
-**- AND**<br>
-**- OR**<br>
-**- NOT**<br>
-**- like**<br>
-**- inner join**<br>
-**- left join**<br>
-**- OPTIONAL: right join**<br>
-**- OPTIONAL: cross join**<br>
-**- functii agregate**<br>
-**- group by**<br>
-**- having**<br>
-**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
+select * from ratings;
+
+select * from actors;
+
+select * from movies;
+
+select * from genres;
+
+select * from movie_genre;
+
+select * from movie_director;
+
+select * from movie_actor;
+
+select * from movie_rating;
+
+select m.title
+from movies m
+join movie_rating mr on m.movie_id = mr.movie_id
+join ratings r on mr.rating_id = r.rating_id
+where r.rating > 0.8;
+
+select * from movies where release_date < "2000-01-01";
+
+select m.title as movie_title, g.name as genre_name
+from movies m
+join movie_genre mg on m.movie_id = mg.m_id
+join genres g on mg.g_id = g.genres_id
+where g.name = "Action";
+
+select m.title as movie_title, g.name as genre_name 
+from movies m
+join movie_genre mg on m.movie_id = mg.m_id
+join genres g on mg.g_id = g.genres_id
+where g.name in ("drama", "history");
+
+
+select m.title as movie_title, d.name as director_name
+from movies m
+inner join movie_director md on m.movie_id = md.movie_id
+inner join director d on md.director_id = d.director_id;
+
+select m.title, a.name as actor_name
+from movies m
+left join movie_actor ma on m.movie_id = ma.movie_id
+left join actors a on ma.actor_id = a.actor_id;
+
+select g.name as genre, count(m.movie_id) as nr_movies
+from movies m
+inner join movie_genre mg on m.movie_id = mg.m_id
+inner join genres g on mg.g_id = g.genres_id
+group by g.name;
+
+select g.name as genre, count(m.movie_id) as nr_of_movies 
+from movies m
+inner join movie_genre mg on m.movie_id = mg.m_id
+inner join genres g on mg.g_id = g.genres_id
+group by g.name
+order by nr_of_movies desc    
+limit 1;
+
+select m.title as movie_title, count(*) as number_of_actors
+from movies m
+join movie_actor ma on m.movie_id = ma.movie_id
+group by m.title;
+
+
+select m.title as movie_title, count(*) as number_of_actors
+from movies m
+join movie_actor ma on m.movie_id = ma.movie_id
+group by m.title
+order by number_of_actors desc
+limit 1;
+
+select m.title as movie_title, count(*) as number_of_directors
+from movies m
+join movie_director md on m.movie_id = md.movie_id
+group by m.title;
+
+
+select round(avg(r.rating), 2) as average_rating
+from ratings r
+join movie_rating mr on r.rating_id = mr.rating_id;
+
+select g.name as genre, round(avg(r.rating), 2) as avg_rating
+from movies m
+inner join movie_genre mg on m.movie_id = mg.m_id
+inner join genres g on mg.g_id = g.genres_id
+inner join movie_rating mr on m.movie_id = mr.movie_id
+inner join ratings r on mr.rating_id = r.rating_id
+group by g.name
+having avg(r.rating) > 0.7;
+
+
+select m.* from movies m
+inner join movie_rating mr on m.movie_id = mr.movie_id
+inner join ratings r on mr.rating_id = r.rating_id
+where m.release_date > '2000-01-01' and r.rating > 0.8 and m.title not like '%The%';
+
+
+select * from movies
+where title like '%the%';
+
+select count(*) as m_with_the
+from movies
+where title Like'%the%';
+
+select * from movies
+where month(release_date) = 5;
+
+select * from movies
+where release_date like '%-05-%';
+
+select count(*) as total_movies_in_may
+from movies
+where month(release_date) = 5;
+
+select * from actors
+where birth_date is null;
+
+select m.* from movies m
+left join movie_rating mr on m.movie_id = mr.movie_id
+where mr.rating_id is null ;
+
+select m.* from movies m
+inner join movie_rating mr on m.movie_id = mr.movie_id
+inner join ratings r on mr.rating_id = r.rating_id
+inner join movie_genre mg on m.movie_id = mg.m_id
+inner join genres g on mg.g_id = g.genres_id
+where (m.release_date > '2020-01-01' and r.rating > 0.9) or g.name in ('drama');
+
+select min(number_of_actors) as min_actors,
+       max(number_of_actors) as max_actors
+from (
+    select count(*) as number_of_actors
+    from movie_actor
+    group by movie_id
+) as actor_counts;
+
+
+select sum(number_of_actors) as total_actors
+from (
+    select count(*) as number_of_actors
+    from movie_actor
+    group by movie_id
+) as actor_number;
+
+select sum(number_of_director) as total_directors
+from (
+    select count(*) as number_of_director
+    from movie_director
+    group by movie_id
+) as director_number;
+
+
+select sum(number_of_genres) as total_genres
+from (
+    select count(*) as number_of_genres
+    from genres
+    group by genres_id
+) as genre_number;
+
+<br>
 
 </ol>
 
