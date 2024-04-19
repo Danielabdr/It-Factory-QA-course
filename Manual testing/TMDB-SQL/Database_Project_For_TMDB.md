@@ -137,66 +137,127 @@ drop column rating;
   Below you can find all the insert instructions that were created in the scope of this project:
 
 insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2024-01-19");
+
 insert into movies (title, rating, release_date) values ("The Shawshank Redemption", 0.87, "1994-09-23");
+
 insert into movies (title, rating, release_date) values ("Good Fellas", 0.85, "1990-09-19");
+
 insert into movies (title, rating, release_date) values ("Mutant:Ghost War Girl", 0.52, "2022-06-26");
+
 insert into movies (title, rating, release_date) values ("The Hunger Games:The Ballad of Songbirds & Snakes", 0.72, "2023-11-17");
+
 insert into movies (title, rating, release_date) values ("Patriots Time", 0.83, "2022-04-28");
+
 insert into movies (title, rating, release_date) values ("Genghis Khan ", 0.49, "2018-04-28");
+
 insert into movies (title, rating, release_date) values ("The OctoGames", 0.59, "2024-01-19");
+
 insert into movies (title, rating, release_date) values ("The Beekeeper", 0.73, "2022-07-10");
+
 insert into movies (title, rating, release_date) values ("The Farm", 0.52, "2019-04-19");
+
 insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");
+
 insert into movies (title, rating, release_date) values ("The Hill", 0.75, "2023-08-18");
+
 insert into movies (title, rating, release_date) values ("Schindler's List", 0.86, "1993-12-15");
+
 insert into movies (title, rating, release_date) values ("Fury", 0.75, "2014-10-15");
+
 insert into movies (title, rating, release_date) values ("TLift", 0.66, "2024-01-10");
+
 insert into movies (title, rating, release_date) values ("Leo", 0.75, "2023-11-17");
+
 insert into movies (title, rating, release_date) values ("Turning Red", 0.74, "2022-03-10");
+
 insert into movies (title, rating, release_date) values ("Dune", 0.78, "2021-09-15");
+
 insert into movies (title, rating, release_date) values ("Transformers: Rise of the Beasts", 0.74, "2023-01-06");
+
 insert into movies (title, rating, release_date) values ("Mutant: Ghost War Girl", 0.52, "2022-09-26");
+
 insert into movies (title, rating, release_date) values ("Foxtrot Six", 0.65, "2019-02-21");
+
 insert into movies (title, rating, release_date) values ("The Creator", 0.71, "2023-09-27");
+
 insert into movies (title, rating, release_date) values ("Meg 2: The Trench", 0.67, "2023-08-02");
+
 insert into movies (title, rating, release_date) values ("Avatar: The Way of Water", 0.76, "2012-12-14");
+
 insert into movies (title, rating, release_date) values ("Thanksgiving", 0.67, "2023-11-16");
+
 insert into movies (title, rating, release_date) values ("Wish", 0.67, "2023-11-13");
+
 insert into movies (title, rating, release_date) values ("The Boy and the Heron", 0.75, "2023-07-14");
+
 insert into movies (title, rating, release_date) values ("Elemental", 0.77, "2023-06-14");
+
 insert into movies (title, rating, release_date) values ("Puss in Boots: The Last Wish", 0.83, "2022-12-07");
+
 insert into movies (title, rating, release_date) values ("Minions: The Rise of Gru", 0.73, "2022-07-29");
+
 insert into movies (title, rating, release_date) values ("Trolls Band Together", 0.73, "2023-10-12");
+
 insert into movies (title, rating, release_date) values ("Sing 2", 0.79, "2021-12-01");
+
 insert into movies (title, rating, release_date) values ("Maestro", 0.65, "2023-11-22");
+
 insert into movies (title, rating, release_date) values ("La La Land", 0.79, "2016-11-29");
+
 insert into movies (title, rating, release_date) values ("Bohemian Rhapsody", 0.80, "2018-10-24");
+
 insert into movies (title, rating, release_date) values ("Magic Mike's Last Dance", 0.67, "2023-02-09");
+
 insert into movies (title, rating, release_date) values ("Django", 0.63, "2017-04-26");
+
 insert into movies (title, rating, release_date) values ("CODA", 0.79, "2021-08-11");
+
 insert into movies (title, rating, release_date) values ("Lyle, Lyle, Crocodile", 0.72, "2022-10-07");
+
 insert into movies (title, rating, release_date) values ("Pitch Perfect 2", 0.69, "2015-05-07");
+
 insert into movies (title, rating, release_date) values ("The Magic Flute", 0.64, "2022-09-30");
+
 insert into movies (title, rating, release_date) values ("Alvin and the Chipmunks: The Squeakquel", 0.56, "2009-12-21");
+
 insert into movies (title, rating, release_date) values ("Alvin and the Chipmunks: Chipwrecked", 0.57, "2011-12-14");
+
 insert into movies (title, rating, release_date) values ("Whitney Houston: I Wanna Dance with Somebody", 0.70, "2022-12-20");
+
 insert into movies (title, rating, release_date) values ("The Sound of Music", 0.77, "1965-03-29");
+
 insert into movies (title, rating, release_date) values ("Descendants 2", 0.74, "2017-07-21");
+
 insert into movies (title, rating, release_date) values ("An Audience With Kylie", 0.50, "2023-12-10");
+
 insert into movies (title, rating, release_date) values ("Hotel Transylvania:Transformania", 0.70, "2022-02-25");
+
 insert into movies (title, rating, release_date) values ("The Lord of the Rings: The Fellowship of the Ring", 0.84, "2001-12-18");
+
 insert into movies (title, rating, release_date) values ("Pirates of the Caribbean: At World's End", 0.72, "2007-05-19");
+
 insert into movies (title, rating, release_date) values ("Shortcut", 0.55, "2020-09-25");
+
 insert into movies (title, rating, release_date) values ("The Moosehead Chronicles: Fate of the Moosehead", 1.0, "2018-08-03");
+
 insert into movies (title, rating, release_date) values ("The Cabbage-Patch Fairy", 0.52, "1896-05-31");
+
 insert into movies (title, rating, release_date) values ("Cinderella", 0.63, "1898-08-01");
+
 insert into movies (title, rating, release_date) values ("The Human Fly", 0.58, "1902-01-01");
+
 insert into movies (title, rating, release_date) values ("Ted", 0.64, "2012-06-29");
+
 insert into movies (title, rating, release_date) values ("Shang-Chi and the Legend of the Ten Rings", 0.76, "2021-09-01");
+
 insert into movies (title, rating, release_date) values ("How to Train Your Dragon", 0.78, "2010-03-18");
+
 insert into movies (title, rating, release_date) values ("Teddy's Christmas", 0.72, "2022-11-05");
+
 insert into movies (title, rating, release_date) values ("Alice in Wonderland", 0.66, "2010-03-03");
+
 insert into movies (title, rating, release_date) values ("Zuhause", 0, "2015-06-06");
+
 insert into movies (title, rating, release_date) values ("The Hardest Hour", 0, "2024-02-10");
 
 insert into genres ( name ) values ("comedy");
