@@ -261,187 +261,187 @@ insert into movies (title, rating, release_date) values ("Zuhause", 0, "2015-06-
 insert into movies (title, rating, release_date) values ("The Hardest Hour", 0, "2024-02-10");
 
 insert into genres ( name ) values ("comedy");<br>
-insert into genres ( name ) values ("science fiction");
-insert into genres ( name ) values ("action");
-insert into genres ( name ) values ("horror");
-insert into genres ( name ) values ("music");
-insert into genres ( name ) values ("animation");
-insert into genres ( name ) values ("history");
-insert into genres ( name ) values ("fantasy");
-insert into genres ( name ) values ("adventure");
-insert into genres ( name ) values ("documentary");
-insert into genres ( name ) values ("drama");
-insert into genres ( name ) values ("family");
-insert into genres ( name ) values ("mystery");
-insert into genres ( name ) values ("romance");
-insert into genres ( name ) values ("science fiction");
-insert into genres ( name ) values ("thriller");
-insert into genres ( name ) values ("war");
-insert into genres ( name ) values ("western");
-insert into genres ( name ) values ("crime");
+insert into genres ( name ) values ("science fiction");<br>
+insert into genres ( name ) values ("action");<br>
+insert into genres ( name ) values ("horror");<br>
+insert into genres ( name ) values ("music");<br>
+insert into genres ( name ) values ("animation");<br>
+insert into genres ( name ) values ("history");<br>
+insert into genres ( name ) values ("fantasy");<br>
+insert into genres ( name ) values ("adventure");<br>
+insert into genres ( name ) values ("documentary");<br>
+insert into genres ( name ) values ("drama");<br>
+insert into genres ( name ) values ("family");<br>
+insert into genres ( name ) values ("mystery");<br>
+insert into genres ( name ) values ("romance");<br>
+insert into genres ( name ) values ("science fiction");<br>
+insert into genres ( name ) values ("thriller");<br>
+insert into genres ( name ) values ("war");<br>
+insert into genres ( name ) values ("western");<br>
+insert into genres ( name ) values ("crime");<br>
 
-insert into ratings (rating) values (1.0);
-insert into ratings (rating) values (0.99);
-insert into ratings (rating) values (0.98);
-insert into ratings (rating) values (0.97);
-insert into ratings (rating) values (0.96);
-insert into ratings (rating) values (0.95);
-insert into ratings (rating) values (0.94);
-insert into ratings (rating) values (0.93);
-insert into ratings (rating) values (0.92);
-insert into ratings (rating) values (0.91);
-insert into ratings (rating) values (0.90);
-insert into ratings (rating) values (0.89);
-insert into ratings (rating) values (0.88);
-insert into ratings (rating) values (0.87);
-insert into ratings (rating) values (0.86);
-insert into ratings (rating) values (0.85);
-insert into ratings (rating) values (0.84);
-insert into ratings (rating) values (0.83);
-insert into ratings (rating) values (0.82);
-insert into ratings (rating) values (0.81);
-insert into ratings (rating) values (0.80);
-insert into ratings (rating) values (0.79);
-insert into ratings (rating) values (0.78);
-insert into ratings (rating) values (0.77);
-insert into ratings (rating) values (0.76);
-insert into ratings (rating) values (0.75);
-insert into ratings (rating) values (0.74);
-insert into ratings (rating) values (0.73);
-insert into ratings (rating) values (0.72);
-insert into ratings (rating) values (0.71);
-insert into ratings (rating) values (0.70);
-insert into ratings (rating) values (0.69);
-insert into ratings (rating) values (0.68);
-insert into ratings (rating) values (0.67);
-insert into ratings (rating) values (0.66);
-insert into ratings (rating) values (0.65);
-insert into ratings (rating) values (0.64);
-insert into ratings (rating) values (0.63);
-insert into ratings (rating) values (0.62);
-insert into ratings (rating) values (0.61);
-insert into ratings (rating) values (0.60);
-insert into ratings (rating) values (0.59);
-insert into ratings (rating) values (0.71);
-insert into ratings (rating) values (0.70);
-insert into ratings (rating) values (0.69);
-insert into ratings (rating) values (0.68);
-insert into ratings (rating) values (0.67);
-insert into ratings (rating) values (0.66);
-insert into ratings (rating) values (0.65);
-insert into ratings (rating) values (0.64);
-insert into ratings (rating) values (0.63);
-insert into ratings (rating) values (0.62);
-insert into ratings (rating) values (0.61);
-insert into ratings (rating) values (0.60);
-insert into ratings (rating) values (0.59);
-insert into ratings (rating) values (0.58);
-insert into ratings (rating) values (0.57);
-insert into ratings (rating) values (0.56);
-insert into ratings (rating) values (0.55);
-insert into ratings (rating) values (0.54);
-insert into ratings (rating) values (0.53);
-insert into ratings (rating) values (0.52);
-insert into ratings (rating) values (0.51);
-insert into ratings (rating) values (0.50);
-insert into ratings (rating) values (0.49);
-insert into ratings (rating) values (0.48);
-insert into ratings (rating) values (0.47);
-insert into ratings (rating) values (0.46);
-insert into ratings (rating) values (0.45);
-insert into ratings (rating) values (0.44);
-insert into ratings (rating) values (0.43);
-insert into ratings (rating) values (0.42);
-insert into ratings (rating) values (0.41);
-insert into ratings (rating) values (0.40);
-insert into ratings (rating) values (0.39);
-insert into ratings (rating) values (0.38);
-insert into ratings (rating) values (0.37);
-insert into ratings (rating) values (0.36);
-insert into ratings (rating) values (0.35);
-insert into ratings (rating) values (0.34);
-insert into ratings (rating) values (0.33);
-insert into ratings (rating) values (0.44);
-insert into ratings (rating) values (0.43);
-insert into ratings (rating) values (0.42);
-insert into ratings (rating) values (0.41);
-insert into ratings (rating) values (0.40);
-insert into ratings (rating) values (0.39);
-insert into ratings (rating) values (0.38);
-insert into ratings (rating) values (0.37);
-insert into ratings (rating) values (0.36);
-insert into ratings (rating) values (0.35);
-insert into ratings (rating) values (0.34);
-insert into ratings (rating) values (0.33);
-insert into ratings (rating) values (0.32);
-insert into ratings (rating) values (0.31);
-insert into ratings (rating) values (0.30);
-insert into ratings (rating) values (0.29);
-insert into ratings (rating) values (0.28);
-insert into ratings (rating) values (0.27);
-insert into ratings (rating) values (0.26);
-insert into ratings (rating) values (0.25);
-insert into ratings (rating) values (0.24);
-insert into ratings (rating) values (0.23);
-insert into ratings (rating) values (0.22);
-insert into ratings (rating) values (0.21);
-insert into ratings (rating) values (0.31);
-insert into ratings (rating) values (0.30);
-insert into ratings (rating) values (0.29);
-insert into ratings (rating) values (0.28);
-insert into ratings (rating) values (0.27);
-insert into ratings (rating) values (0.26);
-insert into ratings (rating) values (0.25);
-insert into ratings (rating) values (0.24);
-insert into ratings (rating) values (0.23);
-insert into ratings (rating) values (0.22);
-insert into ratings (rating) values (0.21);
-insert into ratings (rating) values (0.31);
-insert into ratings (rating) values (0.30);
-insert into ratings (rating) values (0.29);
-insert into ratings (rating) values (0.28);
-insert into ratings (rating) values (0.27);
-insert into ratings (rating) values (0.26);
-insert into ratings (rating) values (0.25);
-insert into ratings (rating) values (0.24);
-insert into ratings (rating) values (0.23);
-insert into ratings (rating) values (0.22);
-insert into ratings (rating) values (0.21);
-insert into ratings (rating) values (0.20);
-insert into ratings (rating) values (0.19);
-insert into ratings (rating) values (0.18);
-insert into ratings (rating) values (0.17);
-insert into ratings (rating) values (0.16);
-insert into ratings (rating) values (0.15);
-insert into ratings (rating) values (0.14);
-insert into ratings (rating) values (0.13);
-insert into ratings (rating) values (0.12);
-insert into ratings (rating) values (0.11);
-insert into ratings (rating) values (0.10);
-insert into ratings (rating) values (0.23);
-insert into ratings (rating) values (0.22);
-insert into ratings (rating) values (0.21);
-insert into ratings (rating) values (0.20);
-insert into ratings (rating) values (0.19);
-insert into ratings (rating) values (0.18);
-insert into ratings (rating) values (0.17);
-insert into ratings (rating) values (0.16);
-insert into ratings (rating) values (0.15);
-insert into ratings (rating) values (0.14);
-insert into ratings (rating) values (0.13);
-insert into ratings (rating) values (0.12);
-insert into ratings (rating) values (0.11);
-insert into ratings (rating) values (0.10);
-insert into ratings (rating) values (0.09);
-insert into ratings (rating) values (0.08);
-insert into ratings (rating) values (0.07);
-insert into ratings (rating) values (0.06);
-insert into ratings (rating) values (0.05);
-insert into ratings (rating) values (0.04);
-insert into ratings (rating) values (0.03);
-insert into ratings (rating) values (0.02);
-insert into ratings (rating) values (0.01);
-insert into ratings (rating) values (0);
+insert into ratings (rating) values (1.0);<br>
+insert into ratings (rating) values (0.99);<br>
+insert into ratings (rating) values (0.98);<br>
+insert into ratings (rating) values (0.97);<br>
+insert into ratings (rating) values (0.96);<br>
+insert into ratings (rating) values (0.95);<br>
+insert into ratings (rating) values (0.94);<br>
+insert into ratings (rating) values (0.93);<br>
+insert into ratings (rating) values (0.92);<br>
+insert into ratings (rating) values (0.91);<br>
+insert into ratings (rating) values (0.90);<br>
+insert into ratings (rating) values (0.89);<br>
+insert into ratings (rating) values (0.88);<br>
+insert into ratings (rating) values (0.87);<br>
+insert into ratings (rating) values (0.86);<br>
+insert into ratings (rating) values (0.85);<br>
+insert into ratings (rating) values (0.84);<br>
+insert into ratings (rating) values (0.83);<br>
+insert into ratings (rating) values (0.82);<br>
+insert into ratings (rating) values (0.81);<br>
+insert into ratings (rating) values (0.80);<br>
+insert into ratings (rating) values (0.79);<br>
+insert into ratings (rating) values (0.78);<br>
+insert into ratings (rating) values (0.77);<br>
+insert into ratings (rating) values (0.76);<br>
+insert into ratings (rating) values (0.75);<br>
+insert into ratings (rating) values (0.74);<br>
+insert into ratings (rating) values (0.73);<br>
+insert into ratings (rating) values (0.72);<br>
+insert into ratings (rating) values (0.71);<br>
+insert into ratings (rating) values (0.70);<br>
+insert into ratings (rating) values (0.69);<br>
+insert into ratings (rating) values (0.68);<br>
+insert into ratings (rating) values (0.67);<br>
+insert into ratings (rating) values (0.66);<br>
+insert into ratings (rating) values (0.65);<br>
+insert into ratings (rating) values (0.64);<br>
+insert into ratings (rating) values (0.63);<br>
+insert into ratings (rating) values (0.62);<br>
+insert into ratings (rating) values (0.61);<br>
+insert into ratings (rating) values (0.60);<br>
+insert into ratings (rating) values (0.59);<br>
+insert into ratings (rating) values (0.71);<br>
+insert into ratings (rating) values (0.70);<br>
+insert into ratings (rating) values (0.69);<br>
+insert into ratings (rating) values (0.68);<br>
+insert into ratings (rating) values (0.67);<br>
+insert into ratings (rating) values (0.66);<br>
+insert into ratings (rating) values (0.65);<br>
+insert into ratings (rating) values (0.64);<br>
+insert into ratings (rating) values (0.63);<br>
+insert into ratings (rating) values (0.62);<br>
+insert into ratings (rating) values (0.61);<br>
+insert into ratings (rating) values (0.60);<br>
+insert into ratings (rating) values (0.59);<br>
+insert into ratings (rating) values (0.58);<br>
+insert into ratings (rating) values (0.57);<br>
+insert into ratings (rating) values (0.56);<br>
+insert into ratings (rating) values (0.55);<br>
+insert into ratings (rating) values (0.54);<br>
+insert into ratings (rating) values (0.53);<br>
+insert into ratings (rating) values (0.52);<br>
+insert into ratings (rating) values (0.51);<br>
+insert into ratings (rating) values (0.50);<br>
+insert into ratings (rating) values (0.49);<br>
+insert into ratings (rating) values (0.48);<br>
+insert into ratings (rating) values (0.47);<br>
+insert into ratings (rating) values (0.46);<br>
+insert into ratings (rating) values (0.45);<br>
+insert into ratings (rating) values (0.44);<br>
+insert into ratings (rating) values (0.43);<br>
+insert into ratings (rating) values (0.42);<br>
+insert into ratings (rating) values (0.41);<br>
+insert into ratings (rating) values (0.40);<br>
+insert into ratings (rating) values (0.39);<br>
+insert into ratings (rating) values (0.38);<br>
+insert into ratings (rating) values (0.37);<br>
+insert into ratings (rating) values (0.36);<br>
+insert into ratings (rating) values (0.35);<br>
+insert into ratings (rating) values (0.34);<br>
+insert into ratings (rating) values (0.33);<br>
+insert into ratings (rating) values (0.44);<br>
+insert into ratings (rating) values (0.43);<br>
+insert into ratings (rating) values (0.42);<br>
+insert into ratings (rating) values (0.41);<br>
+insert into ratings (rating) values (0.40);<br>
+insert into ratings (rating) values (0.39);<br>
+insert into ratings (rating) values (0.38);<br>
+insert into ratings (rating) values (0.37);<br>
+insert into ratings (rating) values (0.36);<br>
+insert into ratings (rating) values (0.35);<br>
+insert into ratings (rating) values (0.34);<br>
+insert into ratings (rating) values (0.33);<br>
+insert into ratings (rating) values (0.32);<br>
+insert into ratings (rating) values (0.31);<br>
+insert into ratings (rating) values (0.30);<br>
+insert into ratings (rating) values (0.29);<br>
+insert into ratings (rating) values (0.28);<br>
+insert into ratings (rating) values (0.27);<br>
+insert into ratings (rating) values (0.26);<br>
+insert into ratings (rating) values (0.25);<br>
+insert into ratings (rating) values (0.24);<br>
+insert into ratings (rating) values (0.23);<br>
+insert into ratings (rating) values (0.22);<br>
+insert into ratings (rating) values (0.21);<br>
+insert into ratings (rating) values (0.31);<br>
+insert into ratings (rating) values (0.30);<br>
+insert into ratings (rating) values (0.29);<br>
+insert into ratings (rating) values (0.28);<br>
+insert into ratings (rating) values (0.27);<br>
+insert into ratings (rating) values (0.26);<br>
+insert into ratings (rating) values (0.25);<br>
+insert into ratings (rating) values (0.24);<br>
+insert into ratings (rating) values (0.23);<br>
+insert into ratings (rating) values (0.22);<br>
+insert into ratings (rating) values (0.21);<br>
+insert into ratings (rating) values (0.31);<br>
+insert into ratings (rating) values (0.30);<br>
+insert into ratings (rating) values (0.29);<br>
+insert into ratings (rating) values (0.28);<br>
+insert into ratings (rating) values (0.27);<br>
+insert into ratings (rating) values (0.26);<br>
+insert into ratings (rating) values (0.25);<br>
+insert into ratings (rating) values (0.24);<br>
+insert into ratings (rating) values (0.23);<br>
+insert into ratings (rating) values (0.22);<br>
+insert into ratings (rating) values (0.21);<br>
+insert into ratings (rating) values (0.20);<br>
+insert into ratings (rating) values (0.19);<br>
+insert into ratings (rating) values (0.18);<br>
+insert into ratings (rating) values (0.17);<br>
+insert into ratings (rating) values (0.16);<br>
+insert into ratings (rating) values (0.15);<br>
+insert into ratings (rating) values (0.14);<br>
+insert into ratings (rating) values (0.13);<br>
+insert into ratings (rating) values (0.12);<br>
+insert into ratings (rating) values (0.11);<br>
+insert into ratings (rating) values (0.10);<br>
+insert into ratings (rating) values (0.23);<br>
+insert into ratings (rating) values (0.22);<br>
+insert into ratings (rating) values (0.21);<br>
+insert into ratings (rating) values (0.20);<br>
+insert into ratings (rating) values (0.19);<br>
+insert into ratings (rating) values (0.18);<br>
+insert into ratings (rating) values (0.17);<br>
+insert into ratings (rating) values (0.16);<br>
+insert into ratings (rating) values (0.15);<br>
+insert into ratings (rating) values (0.14);<br>
+insert into ratings (rating) values (0.13);<br>
+insert into ratings (rating) values (0.12);<br>
+insert into ratings (rating) values (0.11);<br>
+insert into ratings (rating) values (0.10);<br>
+insert into ratings (rating) values (0.09);<br>
+insert into ratings (rating) values (0.08);<br>
+insert into ratings (rating) values (0.07);<br>
+insert into ratings (rating) values (0.06);<br>
+insert into ratings (rating) values (0.05);<br>
+insert into ratings (rating) values (0.04);<br>
+insert into ratings (rating) values (0.03);<br>
+insert into ratings (rating) values (0.02);<br>
+insert into ratings (rating) values (0.01);<br>
+insert into ratings (rating) values (0);<br>
 
 insert into actors (name, birth_date) values ("Jason Statham", "1967-07-26");
 
