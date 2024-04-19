@@ -35,7 +35,76 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  **Inserati aici toate instructiunile de CREATE pe care le-ati scris, atat create database cat si create table**
+create database TMDB;
+
+create table movies 
+(
+movie_id int auto_increment primary key,
+title varchar(25) not null,
+year int,
+rating decimal,
+release_date date);
+
+create table actors (
+actor_id int auto_increment primary key,
+name varchar(50) not null,
+birth_date date);
+
+create table director (
+director_id int auto_increment primary key,
+name varchar(50) not null,
+birth_date date);
+
+create table genres (
+genres_id int auto_increment primary key,
+name varchar(50) not null);
+select * from genres;
+
+create table movie_genre (
+movie_genre_id int auto_increment primary key,
+movie_id int,
+genres_id int,
+foreign key (movie_id) references movies(movie_id),
+foreign key (genres_id) references genres(genres_id)
+);
+
+create table movie_genre (
+movie_genre_id int auto_increment primary key,
+m_id int,
+g_id int,
+foreign key (m_id) references movies(movie_id),
+foreign key (g_id) references genres(genres_id)
+);
+
+create table ratings (
+rating_id int auto_increment primary key,
+rating decimal ); 
+
+create table movie_rating (
+movie_rating_id int auto_increment primary key,
+movie_id int,
+rating_id int,
+foreign key (movie_id) references movies(movie_id),
+foreign key (rating_id) references ratings(rating_id)
+);
+
+create table movie_actor (
+movie_actor_id int auto_increment primary key,
+movie_id int,
+actor_id int,
+foreign key (movie_id) references movies(movie_id),
+foreign key (actor_id) references actors(actor_id)
+);
+
+create table movie_director (
+movie_director_id int auto_increment primary key,
+movie_id int,
+director_id int,
+foreign key (movie_id) references movies(movie_id),
+foreign key (director_id) references director(director_id)
+);
+
+
 
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
