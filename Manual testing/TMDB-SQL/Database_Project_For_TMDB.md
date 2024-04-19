@@ -444,64 +444,123 @@ insert into ratings (rating) values (0.01);
 insert into ratings (rating) values (0);
 
 insert into actors (name, birth_date) values ("Jason Statham", "1967-07-26");
+
 insert into actors (name, birth_date) values ("Jason Momoa", "1979-08-01");
+
 insert into actors (name, birth_date) values ("Nicole Kidman", "1967-06-20");
+
 insert into actors (name, birth_date) values ("Kevin Hart", "1979-07-06");
+
 insert into actors (name, birth_date) values ("Ursula Corbero", "1989-08-11");
+
 insert into actors (name, birth_date) values ("Emma Stone", "1988-11-06");
+
 insert into actors (name, birth_date) values ("Willem Dafoe", "1955-07-22");
+
 insert into actors (name, birth_date) values ("Mark Ruffalo", "1967-11-22");
+
 insert into actors (name, birth_date) values ("John Brungot", "1977-01-16");
+
 insert into actors (name, birth_date) values ("Mariann Hole", "1981-10-29");
+
 insert into actors (name, birth_date) values ("Kai Remlov", "1946-12-30");
+
 insert into actors (name, birth_date) values ("Nader Khademi", "1986-09-17");
+
 insert into actors (name, birth_date) values ("Jonah Hill", "1969-11-13");
+
 insert into actors (name, birth_date) values ("Gerard Butler", "1969-11-13");
+
 insert into actors (name, birth_date) values ("America Ferrera", "1984-04-18");
+
 insert into actors (name, birth_date) values ("Simu Liu", "1989-04-19");
+
 insert into actors (name, birth_date) values ("Meng'er Zhang", "1987-04-22");
+
 insert into actors (name, birth_date) values ("Florian Munteanu", "1990-10-13");
+
 insert into actors (name, birth_date) values ("Benedict Wong", "1971-06-03");
+
 insert into actors (name, birth_date) values ("Georges Méliès", "1938-01-21");
+
 insert into actors (name, birth_date) values ("Lily James", "1989-04-05");
+
 insert into actors (name, birth_date) values ("Meng'er Zhang", "1987-04-22");
+
 insert into actors (name, birth_date) values ("Cate Blanchett", "1969-05-14");
+
 insert into actors (name, birth_date) values ("Holliday Grainger", "1988-03-27");
+
 insert into actors (name, birth_date) values ("Alice Guy-Blaché", "1873-07-01");
+
 insert into actors (name) values ("Andrew Gerber");
+
 insert into actors (name) values ("Joshua Pitt");
+
 insert into actors (name) values ("Jack Kane");
+
 insert into actors (name, birth_date) values ("Johnny Depp", "1963-06-09");
+
 insert into actors (name, birth_date) values ("Orlando Bloom", "1977-01-13");
+
 insert into actors (name, birth_date) values ("Keira Knightley", "1985-03-26");
+
 insert into actors (name, birth_date) values ("Bill Nighy", "1949-12-12");
+
 insert into actors (name, birth_date) values ("Elijah Wood", "1981-01-28");
+
 insert into actors (name, birth_date) values ("Ian McKellen", "1939-05-25");
+
 insert into actors (name, birth_date) values ("Viggo Mortensen", "1958-10-20");
+
 insert into actors (name, birth_date) values ("Sean Bean", "1959-04-17");
+
 insert into actors (name, birth_date) values ("Billy Boyd", "1968-08-28");
+
 insert into actors (name, birth_date) values ("Dominic Monaghan", "1976-12-08");
+
 insert into actors (name, birth_date) values ("Ian Holm", "1931-09-12");
+
 insert into actors (name, birth_date) values ("Brian Hull", "1991-08-28");
+
 insert into actors (name, birth_date) values ("Selena Gomez", "1992-07-22");
+
 insert into actors (name, birth_date) values ("Kylie Minogue", "1968-05-28");
+
 insert into actors (name, birth_date) values ("Andrew Scott", "1976-10-21");
+
 insert into actors (name, birth_date) values ("Dove Cameron", "1996-01-15");
+
 insert into actors (name, birth_date) values ("Julie Andrews", "1935-10-01");
+
 insert into actors (name, birth_date) values ("Christopher Plummer", "1929-12-13");
+
 insert into actors (name, birth_date) values ("Naomi Ackie", "1992-11-02");
+
 insert into actors (name, birth_date) values ("Jason Lee", "1970-04-25");
+
 insert into actors (name, birth_date) values ("Zachary Levi", "1980-09-29");
+
 insert into actors (name, birth_date) values ("F. Murray Abraham", "1939-10-24");
+
 insert into actors (name, birth_date) values ("Anna Kendrick", "1985-08-09");
+
 insert into actors (name, birth_date) values ("Shawn Mendes", "1998-08-08");
+
 insert into actors (name, birth_date) values ("Emilia Jones", "2002-02-23");
+
 insert into actors (name, birth_date) values ("Franco Nero", "1941-11-23");
+
 insert into actors (name, birth_date) values ("Channing Tatum", "1980-04-26");
+
 insert into actors (name, birth_date) values ("Salma Hayek Pinault", "1966-09-02");
+
 insert into actors (name, birth_date) values ("Rami Malek", "1981-05-12");
+
 insert into actors (name, birth_date) values ("Ryan Gosling", "1980-11-12");
+
 insert into actors (name, birth_date) values ("Bradley Cooper", "1975-01-05");
+
 insert into actors (name, birth_date) values ("Matt Bomer", "1977-10-11");
 insert into actors (name, birth_date) values ("Matthew McConaughey", "1969-11-04");
 insert into actors (name, birth_date) values ("Anna Kendrick", "1985-08-09");
