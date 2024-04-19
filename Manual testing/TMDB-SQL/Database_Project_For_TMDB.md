@@ -105,17 +105,30 @@ foreign key (director_id) references director(director_id)
 );
 
 
-
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
-  **Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
- **- schimbare nume tabela**
- **- adaugare sau stergere coloana**
- **- redenumire coloana**
- **- adaugare proprietati coloana (ex: adaugare auto-increment)**
- **- modificare proprietati coloana (ex: modificare tip de data, modificare pozitie coloana etc)**
- **- adaugare cheie primara sau secundara (daca nu a fost deja adaugata la crearea tabelei)**
- 
+alter table movies
+add column genre varchar(50);
+
+alter table movies
+drop column year;
+
+alter table movies
+drop column genre;
+
+alter table movies 
+modify column rating float;
+
+alter table ratings
+modify column rating float;
+
+alter table movies
+modify title varchar(100);
+
+alter table movies
+drop column rating;
+
+
   
   <li>DML (Data Manipulation Language)</li>
 
