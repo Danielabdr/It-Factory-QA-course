@@ -16,11 +16,16 @@ You can find below the database schema that was generated through Reverse Engine
 The tables are connected in the following way:
 
 <ul>
-  <li> movies is connected with movie_rating through a one-to-many relationship which was implemented through movies.movie_id as a primary key and movie_rating.movie_id as a foreign key.</li>
+  <li> movies is connected with movie_rating through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_rating.movie_id as a foreign key.</li>
   <li> movies is connected with movie_genre through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_genre.movie_id as a foreign key.</li>
   <li> movies is connected with movie_actor through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_actor.movie_id as a foreign key.</li>
+  <li> movies is connected with movie_director through a many-to-many relationship which was implemented through movies.movie_id as a primary key and movie_director.movie_id as a foreign key.</li>
+  <li> ratings is connected with movie_rating through a many-to-many relationship which was implemented through ratings.rating_id as a primary key and movie_rating.rating_id as a foreign key.</li>
+  <li> genres is connected with movie_genres through a many-to-many relationship which was implemented through genres.genres_id as a primary key and movie_genre.g_id as a foreign key.</li>
+  <li> actors is connected with movie_actor through a many-to-many relationship which was implemented through actorss.actor_id as a primary key and movie_actor.actor_id as a foreign key.</li>
+  <li> director is connected with movie_director through a many-to-many relationship which was implemented through director.director_id as a primary key and movie_director.director_id as a foreign key.</li>
+  
   ...........
-  <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
 </ul><br>
 
 <li>Database Queries</li><br>
