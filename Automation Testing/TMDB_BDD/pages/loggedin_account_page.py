@@ -1,0 +1,19 @@
+
+
+from selenium.webdriver.common.by import By
+
+
+from pages.base_page import Base_page
+
+
+class LoggedinAccountPage(Base_page):
+    MY_ACCOUNT_BUTTON = (By.XPATH, '//a[@title="Profile and Settings"]')
+    LOG_OUT_BUTTON = (By.XPATH, '/html/body/div[12]/div/div[1]/div/div[4]/p/a')
+
+    def check_account_created(self):
+        current_url = self.driver.current_url
+        assert 'Danielabdr' in current_url, f'Error: "Danielabdr" not in current url page'
+
+    def log_out(self):
+        self.driver.find_element(*self.MY_ACCOUNT_BUTTON).click()
+        self.driver.find_element(*self.LOG_OUT_BUTTON).click()
