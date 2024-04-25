@@ -8,7 +8,7 @@ from pages.base_page import Base_page
 
 class LoggedinAccountPage(Base_page):
     MY_ACCOUNT_BUTTON = (By.XPATH, '//a[@title="Profile and Settings"]')
-    LOG_OUT_BUTTON = (By.XPATH, '/html/body/div[12]/div/div[1]/div/div[4]/p/a')
+    LOG_OUT_BUTTON = (By.LINK_TEXT, 'Logout')
 
     def check_account_created(self):
         current_url = self.driver.current_url

@@ -11,7 +11,7 @@ class JoinTMDBPage(Base_page):
     CONFIRM_PASSWORD_FIELD = (By.XPATH, '//input[@id="password_confirm"]')
     EMAIL_FIELD = (By.XPATH, '//input[@id="email"]')
     SIGN_IN_BUTTON = (By.XPATH, '//input[@id="sign_up_button"]')
-    JOIN_TMDB_MESSAGE = (By.XPATH, '//div[@class="error_wrapper"]')
+    JOIN_TMDB_MESSAGE = (By.CSS_SELECTOR, '#main > div > div > div > div > h2')
 
 
 
@@ -35,10 +35,7 @@ class JoinTMDBPage(Base_page):
     def click_sign_in_button(self):
         self.driver.find_element(*self.SIGN_IN_BUTTON).click()
 
-    def check_join_TMDB_message(self):
-        current_url = self.driver.current_url
+    def check_join_TMDB_message(self, account_activation_message):
         actual_message = self.driver.find_element(*self.JOIN_TMDB_MESSAGE).text
-        expected_message = "Your email address hasn't been verified. Please click the verification link in the email that was sent to the address you signed up with. (Don't forget to check your spam folder.) You may request the email be resent if you are unable to locate your activation email."
-        assert 'signup' in current_url
-        assert actual_message == expected_message, (f'Error: Expected message: {expected_message} Actual message: {actual_message}')
+        assert actual_message == account_activation_message, (f'Error: Expected message: {account_activation_message} Actual message: {actual_message}')
 

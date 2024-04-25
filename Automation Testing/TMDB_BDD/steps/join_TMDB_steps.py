@@ -24,7 +24,7 @@ def step_impl(context, email):
 def step_impl(context):
     context.join_TMDB_page.click_sign_in_button()
 
-@Then('the user will be directed to a page with a message saying that he needs to activate the account from the email recieved')
-def step_impl(context):
-    context.join_TMDB_page.check_join_TMDB_message()
+@Then('the user will be directed to a page with an account activation message "{account_activation_message}"')
+def step_impl(context, account_activation_message):
+    context.join_TMDB_page.check_join_TMDB_message(account_activation_message)
 

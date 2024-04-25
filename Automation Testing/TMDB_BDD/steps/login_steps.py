@@ -4,15 +4,15 @@ from behave import *
 def step_impl(context):
     context.login_page.navigate_to_login_page()
 
-@When('I insert username as "{username}"')
+@When('I insert username "{username}"')
 def step_impl(context, username):
     context.login_page.insert_username(username)
 
-@When('I insert password as "{password}"')
+@When('I insert password "{password}"')
 def step_impl(context, password):
     context.login_page.insert_password(password)
 
-@When('I try to login 11 times "{username}" and "{password}"')
+@When('I try to login 11 times with "{username}" and "{password}" and I click login button')
 def step_impl(context, username, password):
     context.login_page.insert_username_password_11_times(username, password)
 
