@@ -2,7 +2,7 @@ from seleniumbase import Driver
 
 
 
-class Browser():
+class Browser:
     driver = Driver()
     driver.maximize_window()
     driver.implicitly_wait(5)
