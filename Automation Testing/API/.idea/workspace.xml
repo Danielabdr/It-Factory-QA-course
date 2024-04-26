@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a52c8b77-8848-4b05-b3a1-0a73f8f9d01f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/requests_folder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requests_folder/test_data" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TMDB_unit_test/test_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../100days_challenge" beforeDir="false" afterPath="$PROJECT_DIR$/../100days_challenge" afterDir="false" />
     </list>
@@ -13,12 +15,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fdAacrSsU7d8yCjZLhBhoirhZ3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Ovidiu/PycharmProjects/TMDB_unit_test"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
