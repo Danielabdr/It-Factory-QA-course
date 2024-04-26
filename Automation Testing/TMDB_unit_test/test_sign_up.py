@@ -95,7 +95,7 @@ class Test_Signup(softest.TestCase):
         assert is_error_correct == False, f"Error: The expected error message '{expected_error_message}' was not found"
 
 
-    def test_check_signup_not_possible_with_less_than_four_characters(self):
+    def test_check_signup_not_possible_with_password_less_than_four_characters(self):
         username_input = self.driver.find_element(*self.username)
         username_input.send_keys(
             "Daniela()_@#>?SDFSDFDSF213156456456456wkjhsidhfoisjodifjskdjfkjsdbfihsjhfdytdgfxdgcghv>")

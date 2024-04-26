@@ -2,6 +2,7 @@ import unittest
 
 import HtmlTestRunner
 
+from test_list import TestList
 from test_login import Test_Login
 from test_sign_up import Test_Signup
 
@@ -11,8 +12,7 @@ class TestSuite(unittest.TestCase):
     def test_suite(self):
         # am creat un obiect instantiat din clasa TestSuite din libraira unittest
         test_list = unittest.TestSuite()
-        test_list.addTests([unittest.defaultTestLoader.loadTestsFromTestCase(Test_Signup),
-                           unittest.defaultTestLoader.loadTestsFromTestCase(Test_Login)])
+        test_list.addTests(unittest.defaultTestLoader.loadTestsFromTestCase(Test_Signup))
 
         # am instantiat un obiect numit runner din clasa HTMLTestRunner din libraria HtmlTestRunner
         runner = HtmlTestRunner.HTMLTestRunner \
