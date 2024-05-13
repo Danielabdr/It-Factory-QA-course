@@ -8,8 +8,8 @@ class TestUpdateList:
         assert response.status_code == 201, f'Error, expected status code 201, actual status code {response.status_code}'
         assert response.json()["status_message"] == "The item/record was updated successfully.", f'Error, expected message "The item/record was updated successfully.", actual message {response.json()["status_message"]}'
 
-    def test_update_description_field(self):
-        response = update_list(8298301, "Updated list description", "Updated list")
+    def test_update_list_description(self):
+        response = update_list(8298301, "Updated list descriptionnn", "Updated listtt")
         assert response.status_code == 201, f'Error, expected status code 201, actual status code {response.status_code}'
         assert response.json()[
                    "status_message"] == "The item/record was updated successfully.", f'Error, expected message "The item/record was updated successfully.", actual message {response.json()["status_message"]}'
@@ -20,4 +20,5 @@ class TestUpdateList:
         assert response.json()[
                    "status_message"] == "Invalid id: The pre-requisite id is invalid or not found.", f'Invalid id: The pre-requisite id is invalid or not found.", actual message {response.json()["status_message"]}'
 
+    
 
