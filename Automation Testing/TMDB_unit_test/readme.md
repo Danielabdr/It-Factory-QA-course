@@ -1,4 +1,4 @@
-Test Framework - Automation Testing
+UnitTest - Automation Testing for TMDB (The movie Database)
 
 1. Test Setup
 
@@ -25,15 +25,22 @@ b) Define test structure
 - the running will be done based on a runner defined as an instance of class HTMLTestRunner
 
 4. Test results
-Through running the test suites we have obtained a number of
-three executed tests, two passed and two failed. 
-The tests that were passed were the following:
-- test_sorting_by_price_descending 
-- test_check_sign_in_not_possible_when_user_and_pass_empty
+Through running the test suites I have obtained a number of six executed tests, which all passed. 
+The tests that were passed are the following:
+- test_check_creating_list_possible_with_name_containing_letters_numbers_and_special_characters 
+- test_check_user_is_able_to_delete_a_list
+- test_check_login_not_possible_when_user_and_pass_empty
+- test_check_login_with_valid_data
+- test_check_if_can_reset_password
+- test_check_signup_not_possible_when_fields_empty
+- test_check_signup_not_possible_with_username_containing_special_characters
+- test_check_signup_not_possible_with_username_too_long
+- test_check_signup_not_possible_with_password_less_than_four_characters
+- test_check_signup_not_possible_with_wrong_confirmation_password
+- test_check_signup_not_possible_with_invalid_email
 
-The test that was failed was test_check_search_results
-The test was failed because the title of the search results products
-        was not always in correspondence to the search criteria
+
+
 For testing purposes we can consider this as a correct result
         since the test was properly designed to validate
         that all the products have the search criteria in the title
