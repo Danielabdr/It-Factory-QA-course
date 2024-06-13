@@ -20,12 +20,11 @@ b) Define test structure
 - import HtmlTestRunner
 
 3. Running the tests
-- can be done by running the entire test suite, which will start the running
-  of all the tests in the classes that were called in the test suite
+- can be done by running the entire test suite, which will start the running of all the tests in the classes that were called in the test suite
 - the running will be done based on a runner defined as an instance of class HTMLTestRunner
 
 4. Test results
-Through running the test suites I have obtained a number of six executed tests, which all passed. 
+Through running the test suites I have obtained a number of eleven executed tests, which all passed. 
 The tests that were passed are the following:
 - test_check_creating_list_possible_with_name_containing_letters_numbers_and_special_characters 
 - test_check_user_is_able_to_delete_a_list
@@ -40,28 +39,7 @@ The tests that were passed are the following:
 - test_check_signup_not_possible_with_invalid_email
 
 
-
-For testing purposes we can consider this as a correct result
-        since the test was properly designed to validate
-        that all the products have the search criteria in the title
-        In real life, this might be an expected behaviour 
-        because the search criteria might coincide with some product
-        parameters, even if the search criteria is not in the title,
-        in which case we would have to clarify the expected 
-        behaviour with a business analyst
-
 5. Performance indicators:
-- in order to make the code more efficient the most suitable selectors were found
-     in order to be able to identify the web elements
-     in consequence, id or link text selectors were used as means of
-     identification, except when the specifics of a web element required otherwise
-     Also, CSS selector was preferred to XPATH selector since it is usually
-            faster. Nevertheless, whenever we needed to search for
-            an element that was not able to be found with CSS selector
-            XPATH selector was used
-- in order to make the execution more efficient we have used elements
-        like break in order to avoid unnecessary loop execution
-        and also tried to make variable assignment only when needed,
-        reducing variable reassignment to a minimum
-- also, the usage of a sleep instruction was reduced as much as possible
-      and as a general trend the waits are to be preferred to the sleep instruction
+- in order to make the code more efficient the most suitable selectors were found in order to be able to identify the web elements in consequence, id or link text selectors were used as means of identification, except when the specifics of a web element required otherwise.
+- also, CSS selector was preferred to XPATH selector since it is usually faster. Nevertheless, whenever I needed to search for an element that was not able to be found with CSS selector, XPATH selector was used
+- also, the usage of a sleep instruction was reduced as much as possible and as a general trend the waits are to be preferred to the sleep instruction
