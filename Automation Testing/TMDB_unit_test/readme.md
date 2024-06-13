@@ -1,4 +1,4 @@
-UnitTest - Automation Testing for TMDB (The movie Database)
+<b>UnitTest - Automation Testing for TMDB (The movie Database)</b>
 
 1. Test Setup
 
