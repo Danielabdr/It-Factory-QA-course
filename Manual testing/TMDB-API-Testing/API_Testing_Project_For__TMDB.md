@@ -6,8 +6,6 @@ Application under test: TMDB (The Movie Database) v4
 
 Tools used: Postman, Newman
 
-Collection link: **Inserati aici linkul catre colectia de API**
-
 <h2>Tests performed</h2>
 
 <ol>
